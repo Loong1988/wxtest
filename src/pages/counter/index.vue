@@ -25,6 +25,10 @@ export default {
     decrement () {
       store.commit('decrement')
     }
+  },
+  created () {
+    console.log(store.state);
+    
   }
 }
 </script>
